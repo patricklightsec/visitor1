@@ -1,27 +1,25 @@
 {
 
  "Account": {
-"Username": "XXXXXXXXX",
-     "Password": "XXXXXXXXX"
+"Username": "name",
+     "Password": "password"
      },
- "Target Profit": "100",
+ "Target Profit": "10000",
  "Target Win": "500000",
  "Lose Target": "0",
- "Reset If Target Profit": "ON",
+ "Reset If Target Profit": "OFF",
  "Reset If Target Win": "OFF",
- "Toggle Reset To Base Bet" : "OFF",
- "Reset To Base Bet" : "0.0002",
  "Interval": "0",
  "Config": [{
 
-     "Name Bet Set": "chance 70",
-     "Base Bet": "0.1",
+     "Name Bet Set": "VPS betset",
+     "Base Bet": "0.01",
      "Max Bet": "OFF",
-     "Chance": "85",
+     "Chance": "95",
      "Random Chance": {
           "Toggle": "OFF",
-          "Min": "70",
-          "Max": "70"
+          "Min": "95",
+          "Max": "95"
         },
      "Bet": {
           "Bet": "Hi",
@@ -31,9 +29,9 @@
               "If Win": "1"
             }
         },
-     "If Win": "1.9",
-     "If Lose": "2.8",
-     "Reset If Win": "100",
+     "If Win": "3.5",
+     "If Lose": "1.1",
+     "Reset If Win": "3",
      "Reset If Profit": "0.00000001",
      "Interval": "0"
      },{
@@ -57,7 +55,7 @@
         },
      "If Win": "1.2",
      "If Lose": "1.4",
-     "Reset If Win": "0",
+     "Reset If Win": "2",
      "Reset If Profit": "0.00000001",
      "Interval": "0"
      },{
