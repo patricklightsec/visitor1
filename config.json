@@ -1,0 +1,97 @@
+{
+
+ "Account": {
+"Username": "XXXXXXXX",
+     "Password": "XXXXXXX"
+     },
+ "Target Profit": "15000",
+ "Target Win": "500000",
+ "Lose Target": "0",
+ "Reset If Target Profit": "ON",
+ "Reset If Target Win": "ON",
+ "Toggle Reset To Base Bet" : "OFF",
+ "Reset To Base Bet" : "0.0002",
+ "Interval": "0",
+ "Config": [{
+
+     "Name Bet Set": "chance 70",
+     "Base Bet": "0.0001",
+     "Max Bet": "OFF",
+     "Chance": "82.11",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "79",
+          "Max": "80"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "1",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "5.7",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.00001",
+     "Interval": "0"
+     },{
+
+     "Name Bet Set": "1 - Mining Chance  49",
+     "Base Bet": "0.001",
+     "Max Bet": "OFF",
+     "Chance": "49",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "49",
+          "Max": "49.25"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "3",
+              "If Win": "2"
+            }
+        },
+     "If Win": "1.2",
+     "If Lose": "1.4",
+     "Reset If Win": "0",
+     "Reset If Profit": "0.00000001",
+     "Interval": "0"
+     },{
+
+     "Name Bet Set": "2 - Mining Chance 11-25%",
+     "Base Bet": "0.0001",
+     "Max Bet": "OFF",
+     "Chance": "17",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "11",
+          "Max": "25"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "3",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "1.25",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.00000001",
+     "Interval": "0"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "0",
+       "Wallet Address":   "x",
+       "Amount": "5"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
+
+}
